@@ -1,0 +1,93 @@
+body {
+    background-image: url("./images/leaves-and-floral-summer-wallpaper-free-vector.jpg");
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+
+/* LOGIN */
+
+.formLogin {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh; 
+}
+
+.formLogin form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 50px;
+    background-color: rgba(199, 179, 128, 0.3);
+}
+
+.inputsLogin {
+    margin-bottom: 25px;
+    border-radius: 15px;
+    height: 25px;
+    width: 100%;
+    border-color: rgba(199, 179, 128, 0.6);
+    background: rgba(199, 179, 128, 0.3);
+    font-size: 20px;
+}
+
+.formLogin label {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.sendButton {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sendButton:hover {
+    background-color: rgb(241, 240, 221);
+}
+
+/* ERROR AND LOGGED */
+
+.loggedAndError {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; 
+}
+
+.divInside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 50px;
+    background-color: rgba(199, 179, 128, 0.3);
+}
+
+.divInside p {
+    font-size: 25px;
+}
+
+.backHome {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.backHome a {
+    text-decoration: none;
+    color: #000000; 
+}
+
+.backHome:hover {
+    background-color: rgb(241, 240, 221);
+}
