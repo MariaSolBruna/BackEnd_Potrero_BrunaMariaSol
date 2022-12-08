@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>REGISTRARSE</title>
+</head>
+<body>
+
+    <nav>
+        <div  class="navContainer">
+            <div class="navBox1">
+                <a href="index.php">
+                    <img src="./images/logo.jpg" class="logoNav">
+                </a>
+            </div>
+            <div class="navBox2">
+                <div><a href="womanProducts.php">MUJER</a></div>
+                <div><a href="manProducts.php">HOMBRE</a></div>
+                <div><a href="kidsProducts.php">NIÑOS</a></div>
+            </div>
+            <div class="navBox3">
+                <a href="login.html">INICIAR SESION</a>
+            </div>
+        </div>
+    </nav>
+
+        <p class="addTitle">Ingrese sus datos:</p>
+
+        <div class="addProductContainer">
+            <form method="POST" action="register.php" enctype="multipart/form-data" class="addProductForm">
+
+                <label>Usuario</label>
+                <input type="text" name="user" placeholder="Usuario" class="addInputs" required>
+                <label>Email</label>
+                <input type="text" name="email" placeholder="Email" class="addInputs" required>
+                <label>Contraseña</label>
+                <input type="password" name="passw" placeholder="Contraseña" class="addInputs" required>
+
+                <input type="submit" name="submit" value="ACEPTAR" class="addSubmit">
+            </form>
+        </div>
+
+</body>
+</html>

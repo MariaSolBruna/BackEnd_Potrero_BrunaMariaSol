@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 15vh;
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    font-weight:bold;
+}
+
+.navContainer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* height: 50%; */
+}
+
+.logoNav {
+    height: 60px;
+    width: 80px;
+}
+
+.navBox2 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navBox2 a, .navBox3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.navBox2 a:hover, .navBox3 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.navBox3 {
+    display: flex;
+    align-items: center;
+}
+
+.productsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-style: italic;
+}
+
+.productsSection a {
+    text-decoration: none;
+    color:black;
+}
+
+/* IMAGEN HEADER */
+
+.imgHeader {
+    width: 100vw;  
+}
+
+.imgHeader img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.relleno {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+/* SECCION OFERTAS */
+
+.saleSection {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 50px;
+}
+
+.saleContainer1 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.saleContainer1 h2 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.saleContainer2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.model {
+    font-style: italic;
+    font-size: 19px;
+}
+
+.price {
+    font-weight: bolder;
+}
+
+.saleBoxes {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.saleBoxes p {
+    width: 49%;
+}
+
+.saleBoxes img {
+    width: 300px;
+    height: 300px;
+}
+
+.saleBox2 {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.saleBoxes p, .saleBoxes a {
+    text-align: center;
+}
+
+.saleBox2 p {
+    margin: 0;
+}
+
+.saleBox2 a {
+    margin: 20px 0 70px;
+}
+
+.btnBuyIndex {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+/* SECCIÓN TENDENCIAS */
+
+.tendContainer1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 100px 0 50px;
+}
+
+.tendContainer1 h2 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tendContainer1 a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    
+}
+
+.tendContainer1 a:hover {
+    font-weight: bolder;
+}
+
+.tendContainer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 100px;
+}
+
+.tendContainer2 h3 {
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+footer p {
+    width: fit-content;
+    margin: 0 25px;
+}
+
+/* TODOS LOS PRODUCTOS */
+
+.productsMainContainer {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.productsContainer {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh auto;
+}
+
+.productsBox1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productsBox2 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.imageBoxA {
+    width: 96%;
+    border: 2px solid white;
+}
+
+.productsBox2 button {
+    width: fit-content;
+    padding: 5px 10px;
+    align-self: center;
+    margin-top: 15px;
+}
+
+/* PRODUCTOS MUJER */
+
+.womanProductsContainer {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto;
+}
+
+.womanProductsBox1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.womanProductsBox2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 30px 0 90px;
+    padding: 10px;
+    gap: 7px;
+}
+
+.womanProductsBox2 p {
+    width: fit-content;
+}
+
+.womanImageBoxA {
+    width: 60%;
+    border: 2px solid white;
+}
+
+.womanImageBoxBC {
+    display: flex;
+    flex-wrap: wrap;
+    width: 37%;
+}
+
+.womanImageBoxB, .womanImageBoxC {
+    width: 98%;
+    border: 1px solid white;
+    height: 49.5%;
+}
+
+.womanProductsContainer button {
+    width: min-content;
+    padding: 5px 10px;
+    align-self: center;
+}
+
+/*   SECCION HEADER    */
+
+.productsHeader {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 3% 0;
+}
+
+.productsHeader h2, p {
+    width: 100%;
+}
+
+.productsHeader button {
+    margin: 15px 15px 0;
+    padding: 8px 12px;
+}
+
+/* ----- ADMIN PANEL ----- */
+
+.homeBtn {
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.homeBtn a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.adminContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+.addAdmin {
+    border: none;
+    margin: 30px 0;
+}
+
+.addAdmin a {
+    padding: 5px 10px;
+    margin-top: 30px;
+    background-color: rgb(29, 218, 29);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.adminTable {
+    display: flex;
+    text-align: center;
+}
+
+.adminTable tr {
+    border: none;
+}
+
+.adminTable th {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.updateAdmin a {
+    padding: 5px 10px;
+    margin-top: 30px;
+    background-color: rgb(29, 70, 218);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.deleteAdmin a {
+    padding: 5px 10px;
+    margin-top: 30px;
+    background-color: rgb(164, 25, 25);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* .homeBtn {
+    background-color: black;
+} */
+
+/* ----- ADD PRODUCT ----- */
+
+.addTitle {
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 0 30px;
+}
+
+.addProductContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+/* .addProductOut {
+    border: 2px solid black;
+    width: min-content;
+} */
+
+.addProductForm {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px 10px;
+}
+
+.addInputs {
+    width: 90%;
+}
+
+.addInputs2 {
+    text-align: center;
+}
+
+.addSubmit {
+    padding: 5px 10px;
+    margin-top: 30px;
+    background-color: rgb(29, 218, 29);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* ----- SINGLE PRODUCT ----- */
+
+.singleProductContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.singleProductBox1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 60px 0 40px;
+}
+
+.singleProductBox1 img {
+    height: 400px;
+    width: 400px;
+    margin: 5px;
+}
+
+.singleProductBox2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding: 20px 100px;
+}
+
+/* ----- BOTON HOME ----- */
+
+.homeBtn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 8px;
+    margin-left: 10px;
+}
+
+.homeBtn a {
+    font-size: 20px;
+}
+

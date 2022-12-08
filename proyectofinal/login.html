@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet" />
+        <title>INICIAR SESION</title>
+    </head>
+  <body>
+
+  <nav>
+      <div  class="navContainer">
+          <div class="navBox1">
+              <a href="index.php">
+                  <img src="./images/logo.jpg" class="logoNav">
+              </a>
+          </div>
+          <div class="navBox2">
+              <div><a href="womanProducts.php">MUJER</a></div>
+              <div><a href="manProducts.php">HOMBRE</a></div>
+              <div><a href="kidsProducts.php">NIÑOS</a></div>
+          </div>
+          <div class="navBox3">
+              <a href="login.html">INICIAR SESION</a>
+          </div>
+      </div>
+  </nav>
+
+    <p class="addTitle">Ingrese sus datos:</p>
+
+    <div class="addProductContainer">
+      <form method="POST" action="login.php" class="addProductForm">
+
+          <label for="">Usuario</label>
+          <input type="text" name="userLoginPost" value="">
+          <label for="">Contraseña</label>
+          <input type="password" name="passwLoginPost" value="">
+
+          <input type="submit" name="boton" value="INGRESAR" class="addSubmit">
+
+      </form>
+    </div>
+
+    <div>
+      Si aun no esta registrado, haga click <a href="register.html">aqui</a>
+    </div>
+
+  </body>
+</html>

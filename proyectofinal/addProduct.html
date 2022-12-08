@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" />
+    <title>ADMIN: ADD</title>
+</head>
+<body>
+
+    <button type="submit"><a href="adminPanel.php">Volver atras</a></button>
+
+    <p class="addTitle">Ingrese los datos de la prenda:</p>
+
+    <div class="addProductContainer">
+        <form method="POST" action="addProduct.php" enctype="multipart/form-data" class="addProductForm">
+            <label>Tipo de prenda</label>
+            <input type="text" name="typeof" placeholder="Tipo de prenda" class="addInputs" required>
+            <label>Color</label>
+            <input type="text" name="color" placeholder="Color" class="addInputs" required>
+            <label>Talle</label>
+            <input type="text" name="size" placeholder="Talle" class="addInputs" required>
+            <label>Model</label>
+            <input type="text" name="model" placeholder="Modelo" class="addInputs" required>
+            <label>Genero</label>
+            <input type="text" name="gender" placeholder="Genero" class="addInputs" required>
+            <label>Precio</label>
+            <input type="text" name="price" placeholder="Precio" class="addInputs" required>
+            <label>Promocion</label>
+            <select name="sale" id="" class="addInputs" required>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+            </select>
+            <!-- <label>Promocion</label>
+            <input type="text" name="sale" placeholder="Precio" required> -->
+            <label>Imagen 1</label>
+            <input type="file" name="image1" placeholder="Imagen 1" class="addInputs2">
+            <label>Imagen 2</label>
+            <input type="file" name="image2" placeholder="Imagen 2" class="addInputs2">
+            <label>Imagen 3</label>
+            <input type="file" name="image3" placeholder="Imagen 3" class="addInputs2">
+
+            <input type="submit" name="submit" value="AGREGAR" class="addSubmit">
+        </form>
+    </div>
+
+</body>
+</html>
